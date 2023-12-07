@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color:rgb(179, 170, 152);
+    padding: 5px 20px 15px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+ }
+ input[type="text"],
+ input[type="email"],
+ select,
+ textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin: 10px;
+ }
+ h1{
+    background-color: green;
+    padding-bottom: 5%;
+    text-align: center;
+ }
